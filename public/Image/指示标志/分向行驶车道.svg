@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="50mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#006DB8;stroke-width:40}
+    .str0 {stroke:#2B378E;stroke-width:100}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#2B378E}
+   ]]>
+  </style>
+ </defs>
+ <g id="图层_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="2028,1455 5158,1455 5158,3710 2028,3710 "/>
+  <polygon class="fil1 str1" points="2119,1523 5067,1523 5067,3642 2119,3642 "/>
+  <rect class="fil0" x="2205" y="1761" width="121" height="242"/>
+  <rect class="fil0" x="4886" y="1761" width="121" height="242"/>
+  <rect class="fil0" x="3998" y="1761" width="121" height="242"/>
+  <rect class="fil0" x="3101" y="1761" width="121" height="242"/>
+  <rect class="fil0" x="2205" y="2231" width="121" height="242"/>
+  <rect class="fil0" x="4886" y="2231" width="121" height="242"/>
+  <rect class="fil0" x="3998" y="2231" width="121" height="242"/>
+  <rect class="fil0" x="3101" y="2231" width="121" height="242"/>
+  <rect class="fil0" x="2205" y="2709" width="121" height="242"/>
+  <rect class="fil0" x="4886" y="2709" width="121" height="242"/>
+  <rect class="fil0" x="3998" y="2709" width="121" height="242"/>
+  <rect class="fil0" x="3101" y="2709" width="121" height="242"/>
+  <rect class="fil0" x="2205" y="3192" width="121" height="242"/>
+  <rect class="fil0" x="4886" y="3192" width="121" height="242"/>
+  <rect class="fil0" x="3998" y="3192" width="121" height="242"/>
+  <rect class="fil0" x="3101" y="3192" width="121" height="242"/>
+  <path class="fil0" d="M4265 3253l134 0 -1 -671 174 0 -110 127 157 -1 179 -179 -172 -176 -167 0 120 107 -208 1c-94,0 -118,82 -105,170l0 622z"/>
+  <path class="fil0" d="M2952 3253l-134 0 1 -671 -174 0 110 127 -157 -1 -179 -179 172 -176 167 0 -120 107 208 1c94,0 118,82 105,170l0 622z"/>
+  <polygon class="fil0" points="3534,3268 3536,2282 3403,2417 3397,2213 3623,1996 3834,2215 3834,2412 3703,2283 3703,3269 "/>
+ </g>
+</svg>

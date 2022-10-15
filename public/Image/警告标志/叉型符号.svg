@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60mm" height="60mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6000 6000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#E62129;stroke-width:7.62}
+    .fil0 {fill:#E62129}
+    .fil1 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="图层_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="1191,4102 5159,3067 5288,2776 4902,2582 934,3609 771,3908 "/>
+  <polygon class="fil0 str0" points="1174,1900 3057,2398 4916,1931 5294,2125 5168,2429 3049,2966 937,2398 780,2071 "/>
+  <polygon class="fil1" points="1166,2040 3033,2561 4947,2086 5129,2164 5074,2297 3041,2803 1032,2266 961,2133 "/>
+  <polygon class="fil0" points="1195,2589 5155,3655 5281,3946 4894,4138 934,3080 774,2781 "/>
+  <polygon class="fil1" points="1150,2731 5044,3767 5099,3895 4929,3980 1034,2947 964,2815 "/>
+  <polygon class="fil1" points="1147,3960 5049,2954 5106,2826 4936,2740 1033,3743 962,3875 "/>
+ </g>
+</svg>

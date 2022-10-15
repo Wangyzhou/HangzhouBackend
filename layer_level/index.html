@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geoserver_rest</title>
+    <script crossorigin="anonymous" src="https://cdn.bootcdn.net/ajax/libs/axios/0.19.1/axios.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .content{
+            width:1200px;
+            height: 500px;
+            border: solid 1px rgb(34, 38, 37);
+            /* background-color: brown; */
+        }
+    </style>
+</head>
+<body>
+    <button>getworkspace</button>
+    <button>getlayer</button>
+    <div class="content"></div>
+    <script>
+        const btn = document.getElementsByTagName("button")
+        const result = document.getElementsByClassName("content")[0]
+        
+        btn[0].onclick = function(){
+            // console.log(username.value)
+            //url 请求体  其他配置
+            axios.post('http://127.0.0.1:3000/api/GetWorkSpaces',{
+                username:'admin',
+                password:'geoserver'
+            }
+                ).then(res => {
+                console.log(typeof(res.data))
+                console.log(res.data)
+                const data = res.data
+                const text = JSON.stringify(res.data)
+                // console.log(text)
+                // console.log(typeof(text))
+                const data2 = data.workspaces.workspace
+                console.log(data2)
+                console.log(typeof(data2))
+                result.innerHTML = text
+            })
+        }
+
+        btn[1].onclick = function(){
+            // console.log(username.value)
+            //url 请求体  其他配置
+            axios.get('http://127.0.0.1:3000/api/GetLayers',
+                ).then(res => {
+                console.log(typeof(res.data))
+                console.log(res.data)
+                const text = JSON.stringify(res.data)
+                console.log(text)
+                console.log(typeof(text))
+                result.innerHTML = text
+            })
+        }
+    </script>
+</body>
+</html>

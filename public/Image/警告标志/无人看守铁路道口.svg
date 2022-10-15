@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30mm" height="30mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3000 3000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#332C2B;stroke-width:7.62}
+    .fil1 {fill:#332C2B}
+    .fil0 {fill:#F6AD02}
+   ]]>
+  </style>
+ </defs>
+ <g id="图层_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M2444 2322l-2034 0c-87,-16 -83,-102 -23,-207l959 -1677c36,-56 127,-93 180,0l941 1641c64,101 123,245 -24,243z"/>
+  <path class="fil1 str0" d="M2444 2322l-2034 0c-87,-16 -83,-102 -23,-207l959 -1677c36,-56 127,-93 180,0l941 1641c64,101 123,245 -24,243zm-1007 -1730l905 1570 -1810 0 905 -1570z"/>
+  <rect class="fil1 str0" x="969" y="1927" width="59" height="76"/>
+  <rect class="fil1 str0" x="989" y="1692" width="793" height="186"/>
+  <rect class="fil1 str0" x="1685" y="1637" width="205" height="74"/>
+  <rect class="fil1 str0" x="1070" y="1639" width="110" height="74"/>
+  <polygon class="fil1 str0" points="1470,1628 1551,1628 1587,1701 1431,1701 "/>
+  <polygon class="fil1 str0" points="941,1868 1746,1868 1745,1807 1893,1807 1889,1868 1889,1939 941,1939 "/>
+  <ellipse class="fil1 str0" cx="1777" cy="1986" rx="99" ry="88"/>
+  <ellipse class="fil1 str0" cx="1543" cy="1986" rx="99" ry="88"/>
+  <ellipse class="fil1 str0" cx="1309" cy="1986" rx="99" ry="88"/>
+  <ellipse class="fil1 str0" cx="1137" cy="2005" rx="67" ry="69"/>
+  <ellipse class="fil1 str0" cx="998" cy="2024" rx="48" ry="50"/>
+  <path class="fil1 str0" d="M1298 1367c44,-95 113,-134 220,-93 142,-45 282,23 215,200 -15,48 -68,67 -157,58 -40,42 -100,32 -169,0 -42,47 -100,56 -176,29 -40,10 -66,31 -61,81l-79 -2c-1,-166 76,-248 207,-273z"/>
+ </g>
+</svg>

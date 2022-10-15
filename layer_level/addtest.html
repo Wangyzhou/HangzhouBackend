@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        html,
+        body,
+        #map {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script type="text/javascript" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="addLayer.js"  type="text/javascript"></script>
+    <script>var 
+    geom = {
+            "type": "MultiPolygon", "coordinates": [
+                [[[36.375733, 56.475540], [37.661133, 56.699837], [39.089356, 56.402508], [39.572754, 55.627130], [39.155274, 55.051062], [38.089600, 54.817004], [36.672364, 54.886732], [35.727541, 55.377699], [35.815432, 56.072117], [36.375733, 56.475540]],
+                [[37.488099, 55.890415], [37.372743, 55.810070], [37.380983, 55.728008], [37.485353, 55.600703], [37.677613, 55.577371], [37.825929, 55.639560], [37.839662, 55.763641], [37.820436, 55.837900], [37.589723, 55.905846], [37.488099, 55.890415]]],
+
+                [[[41.539307, 57.370676], [43.077393, 57.471439], [43.813477, 57.329104], [43.692627, 56.572696], [43.352051, 55.664406], [41.978760, 55.321357], [40.759278, 55.352667], [40.111084, 55.874975], [40.187989, 56.536291], [40.627442, 56.958829], [41.539307, 57.370676]]]
+            ]
+        };
+
+        var map = L.map('map').setView([113, 34], 7),
+            osmUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+            osmAttribution = 'Map data &copy; 2012 OpenStreetMap contributors';
+
+        
+      
+        // AddLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')
+        // AddLayer('http://localhost:8080/geoserver/gwc/service/wmts?service=WMTS&request=GetTile&version=1.0.0&layer=fan:henan_dishi&style=&tilematrixset=EPSG:4326&format=image%2Fpng&width=256&height=256&tilematrix={z}&tilerow={y}&tilecol={x}')
+       // AddLayer("http://localhost:8080/geoserver/fan/wms?&layername=henan_dishi&format=image/png&transparent=true")
+         AddLayer('http://localhost:8080/geoserver/wfs?request=GetFeature&version=1.1.0&typeName=fan:henan_dishi&outputFormat=application/json')
+        </script>
+</body>
+
+</html>

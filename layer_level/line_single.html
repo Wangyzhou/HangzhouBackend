@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/leaflet/1.8.0/leaflet.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/leaflet/1.8.0/leaflet.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <style>
+        html,
+        body,
+        #map {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        //wrk工作空间名称   layer 图层名  
+        //line_color、line_width 线图层颜色和宽度 格式为：rgb(100,100,100)
+        function change_style(wrk,layer,line_color,line_width){
+            axios.post('http://127.0.0.1:3000/formal/SLD_lineSingle',{
+            workspace : wrk,
+            layer : layer,
+            line_color:line_color,
+            line_width:line_width
+            })
+        }
+        change_style("sf","sd_road","rgb(10,20,150)","3")
+        setTimeout(()=>{
+            var map = L.map('map').setView([36, 118], 7)
+            L.tileLayer('http://localhost:8088/geoserver/gwc/service/tms/1.0.0/sf:sd_road@WebMercatorQuad@png/{z}/{x}/{-y}.png', {
+                attribution: ''
+            }).addTo(map);
+        },700)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="100mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 10000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#FEFEFE;stroke-width:7.62}
+    .str1 {stroke:#006DB8;stroke-width:40}
+    .str2 {stroke:#FEFEFE;stroke-width:50}
+    .str4 {stroke:#FEFEFE;stroke-width:60}
+    .str0 {stroke:#2B378E;stroke-width:100}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#2B378E}
+   ]]>
+  </style>
+ </defs>
+ <g id="图层_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="1029,5140 4159,5140 4159,7396 1029,7396 "/>
+  <polygon class="fil1 str1" points="1120,5208 4068,5208 4068,7328 1120,7328 "/>
+  <rect class="fil0" x="1206" y="5446" width="121" height="242"/>
+  <rect class="fil0" x="3888" y="5446" width="121" height="242"/>
+  <rect class="fil0" x="1206" y="5916" width="121" height="242"/>
+  <rect class="fil0" x="3888" y="5916" width="121" height="242"/>
+  <rect class="fil0" x="1206" y="6395" width="121" height="242"/>
+  <rect class="fil0" x="3888" y="6395" width="121" height="242"/>
+  <rect class="fil0" x="1206" y="6877" width="121" height="242"/>
+  <rect class="fil0" x="3888" y="6877" width="121" height="242"/>
+  <polygon class="fil0" points="2534,6605 2535,6899 2405,6776 2406,6914 2599,7110 2784,6916 2784,6761 2658,6878 2658,6604 "/>
+  <path class="fil0 str2" d="M1869 6067c0,82 29,152 88,209 58,58 128,87 210,87 83,0 153,-29 212,-87 58,-57 87,-127 87,-209 0,-59 -16,-113 -49,-161 -32,-48 -75,-84 -127,-107l23 -59 327 387 86 -8c12,70 46,128 101,175 55,46 120,70 193,70 82,0 152,-29 210,-87 58,-57 88,-127 88,-209 0,-81 -29,-151 -88,-208 -58,-57 -129,-86 -211,-86 -40,0 -79,7 -116,23l-72 -158 26 -72 -5 -2 18 -53c21,0 38,-2 52,-6 22,-6 33,-16 33,-30 0,-27 -10,-41 -29,-41 -11,0 -25,2 -43,7 -19,5 -32,7 -39,7 -9,0 -21,-1 -36,-3 -15,-2 -24,-3 -28,-3 -11,0 -16,7 -16,21 0,4 11,12 32,24 21,11 39,19 53,22l-18 49 -4 -3 -19 52 -448 0 45 -121 111 -5 -23 -38 -110 0 -18 62 -104 284c-31,-10 -62,-15 -95,-15 -83,0 -153,29 -211,86 -58,57 -87,127 -87,209zm33 0c0,-72 26,-134 78,-185 52,-52 115,-77 187,-77 28,0 56,5 85,14 -32,87 -57,155 -76,203l-22 54c0,8 4,11 12,11 10,0 21,-18 35,-53l78 -205c103,47 154,126 154,238 0,72 -26,134 -78,185 -52,51 -115,77 -188,77 -73,0 -136,-26 -187,-77 -52,-51 -78,-113 -78,-185zm422 -360l26 -69 447 0 -162 437 -312 -368zm341 384l153 -411 58 130c-102,56 -154,142 -154,258l0 19 -58 5zm91 -8l0 -15c0,-102 45,-177 135,-228l100 221 -235 22zm4 33l281 -26 -122 -264c34,-14 68,-21 102,-21 73,0 136,26 187,77 52,51 78,113 78,185 0,72 -26,134 -77,185 -52,51 -114,77 -187,77 -65,0 -122,-20 -171,-61 -49,-41 -79,-92 -91,-153z"/>
+  <rect class="fil0 str3" x="2620" y="5953" width="24" height="92"/>
+  <rect class="fil0 str3" x="2634" y="6172" width="24" height="83"/>
+  <rect class="fil0 str3" transform="matrix(1.67146E-014 -1 1 4.22497E-014 2634.19 6280.14)" width="26" height="72"/>
+  <rect class="fil0 str3" transform="matrix(1.51603E-014 -1 1 4.69126E-014 2572.54 5961.38)" width="29" height="72"/>
+  <ellipse class="fil1 str4" cx="2642" cy="6097" rx="65" ry="64"/>
+ </g>
+</svg>
